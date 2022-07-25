@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple application which displays a given html template built via a Fluent API, and fills in it's variables using request/url params.
+This is a simple application which displays a given html template built via a Fluent API, and fills in it's variables from request/url params using the Freemaker template engine.
 
 ## Dependencies
 
@@ -21,5 +21,7 @@ http://localhost:8080/template/show?email=your@mail.com&name=YourName&repository
 
 ## Further enhancement options
 
-The app currently only contains a very simple some test to see if the TemplateController exists, and the application is able to start.
+- The app currently only contains a very simple some test to see if the TemplateController exists, and the application is able to start.
 Playwright (e2e) & unit tests could be added in the future to verify the generated html file.
+
+- A separate service can be created for html generation.
